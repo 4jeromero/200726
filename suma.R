@@ -1,5 +1,5 @@
 x <- rnorm(100, 15, 5)
-y <- 2*x + rnorm(100)
+y <- 4*x + rnorm(100)
 plot(x,y)
 mod1 <- lm(y~x)
 abline(mod1)
